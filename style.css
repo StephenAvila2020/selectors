@@ -1,0 +1,29 @@
+/* footer{
+    background-color: blue;
+    height: 20vh;
+}
+ .blog-footer{
+     background-color: green;
+ } */
+ *{
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ header{
+     display: flex;
+ }
+ header img {
+     width: 4em;
+     margin-left: 3em;
+ }
+/* The > selects the immediate child of the parent */
+ section > div {
+     border: 1px solid black;
+     width: 15vw;
+     margin: 1em;
+     padding: 1em;
+ }
+
+ div img {
+     width: 10vw;
+ }
+ 
